@@ -46,6 +46,8 @@ function App (props) {
 
         <Route path='/about' component={About} />
 
+        
+
         <Route path='*'>
           <NotFound />
         </Route>
